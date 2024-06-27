@@ -35,3 +35,13 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+// ++++++++++++++++++++++++++++++++++++ Stack and Heap Memory
+
+// Stack (Primitive): we gets only a copy of it, the original value doesn't get changed.
+
+// Heap(Non-Primitive): we get refrence for it, the changes what we do, is actually happen to the original.
+
+
+
