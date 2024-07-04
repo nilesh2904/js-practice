@@ -1,6 +1,8 @@
+// Control flow: code should be run on conditional based, for ex, if you are login then some code should be run and if logout then some code should be run. this is control flow.
+
 // if
-const isUserloggedIn = true
-const temperature = 41
+//const isUserloggedIn = true
+//const temperature = 41
 
 // if ( temperature === 40 ){
 //     console.log("less than 50");
@@ -9,8 +11,11 @@ const temperature = 41
 // }
 
 // console.log("Execute");
-// <, >, <=, >=, ==, !=, ===, !==
+// <, >, <=, >=, ==, !=, === (using this it also check datatype), !==
 
+
+
+// Example of block scope, the power is called outside the {} brackets, it will give error, but if we use var then it will execute, as it works as global func
 // const score = 200
 
 // if (score > 100) {
@@ -20,10 +25,13 @@ const temperature = 41
 
 // console.log(`User power: ${power}`);
 
+// Implicit scope eample, if we dont use {} brackets and write directly console.log, it will consider it has scope, but it is written in single line.
+// using , we can write in second line, but it is not recommended.
 
-// const balance = 1000
+const balance = 1000
+if (balance > 500) console.log("test");
 
-// if (balance > 500) console.log("test"),console.log("test2");
+
 
 // if (balance < 500) {
 //     console.log("less than 500");
@@ -38,15 +46,15 @@ const temperature = 41
 
 // }
 
-const userLoggedIn = true
-const debitCard = true
-const loggedInFromGoogle = false
-const loggedInFromEmail = true
+//const userLoggedIn = true
+//const debitCard = true
+//const loggedInFromGoogle = false
+//const loggedInFromEmail = true
 
-if (userLoggedIn && debitCard && 2==3) {
-    console.log("Allow to buy course");
-}
+//if (userLoggedIn && debitCard && 2==3) {
+//    console.log("Allow to buy course");
+//}
 
-if (loggedInFromGoogle || loggedInFromEmail) {
-    console.log("User logged in");
-}
+//if (loggedInFromGoogle || loggedInFromEmail) {
+//    console.log("User logged in");
+//}
