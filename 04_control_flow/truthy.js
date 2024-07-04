@@ -11,16 +11,18 @@ if (userEmail) {
 // false, 0, -0, BigInt 0n, "", null, undefined, NaN
 
 //truthy values
-// "0", 'false', " ", [], {}, function(){}
+// "0", 'false', " ", [] (array), {} (object), function(){} 
 
 // if (userEmail.length === 0) {
 //     console.log("Array is empty");
 // }
 
-const emptyObj = {}
+const emptyObj = {user: "Nilesh"}
 
 if (Object.keys(emptyObj).length === 0) {
     console.log("Object is empty");
+} else {
+    console.log("object is not empty");
 }
 
 // Nullish Coalescing Operator (??): null undefined
