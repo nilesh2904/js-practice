@@ -2,11 +2,11 @@
 
 // if
 //const isUserloggedIn = true
-//const temperature = 41
+//const temperature = 41gbcvb
 
 // if ( temperature === 40 ){
 //     console.log("less than 50");
-// } else {
+// } else {fhvhmv
 //     console.log("temperature is greater than 50");
 // }
 
